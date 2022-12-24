@@ -1,0 +1,1 @@
+aws cloudformation create-stack --stack-name njkasdnasd --template-body file://infra.yaml --capabilities CAPABILITY_NAMED_IAM

@@ -1,0 +1,13 @@
+Resources:
+  RedshiftDB:
+    Type: AWS::Redshift::Cluster
+    Properties:
+      ClusterType: single-node
+      DBName: basis-data-satu
+      MasterUsername: herley
+      MasterUserPassword: Katasandiyangsangatrahasia890123
+      NodeType: dc2.large
+  S3UntukPandasRedshift:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: bucket-untuk-pandas-redshift
